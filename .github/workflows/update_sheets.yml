@@ -2,7 +2,7 @@ name: Update Google Sheets
 
 on:
   schedule:
-    # Runs every 1 minutes
+    # Runs every 5 minutes
     - cron: '*/5 * * * *'
   workflow_dispatch: # Allows manual trigger
 
